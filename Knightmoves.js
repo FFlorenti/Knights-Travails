@@ -1,9 +1,5 @@
-/**
- * Gjen rrugen me te shkurt qe knight mund te beje
- * nga nje pozicioni ne tjetrin  ne nje tabele shahu 8x8 */
-
 function knightMoves(start, end) {
-  // Te 8 lëvizjet e mundshme te kalit ne formen L
+  // 8 levizjet e mundshme te kalit ne formen L
   const directions = [
     [1, 2], [2, 1], [2, -1], [1, -2],
     [-1, -2], [-2, -1], [-2, 1], [-1, 2]
